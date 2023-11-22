@@ -1,0 +1,42 @@
+.navbar {
+    background: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 ;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo1 {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;  
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+    color: lightcoral;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid lightcoral;
+}
+.desktopMenuBtn {
+    background: lightcoral;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10 5rem;
+    border-radius: 2rem;
+}
+
